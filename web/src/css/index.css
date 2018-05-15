@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "JungleFeverRegular";
+  src: url("../fonts/web fonts/junglefever_regular_macroman/JungleFever-webfont.eot");
+  src: local("☺"),
+    url("../fonts/web fonts/junglefever_regular_macroman/JungleFever-webfont.woff")
+      format("woff"),
+    url("../fonts/web fonts/junglefever_regular_macroman/JungleFever-webfont.ttf")
+      format("truetype"),
+    url("../fonts/web fonts/junglefever_regular_macroman/JungleFever-webfont.svg#webfontBlD2f3Gz")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+h2 {
+  font-size: 70px !important;
+  line-height: 200px !important;
+  font-family: "JungleFeverRegular", Helvetica, sans-serif !important;
+  font-weight: bold !important;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 3px;
+
+  /*text stroke*/
+  -webkit-text-stroke: 2px #fff473;
+}
+.search-bar {
+  width: 70%;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+body {
+  background: #1b1b1b !important;
+}
+h3 {
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+}
+
+/* css pagination */
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  background: #ffffff;
+  padding: 8px 16px;
+  float: left;
+}
+li a{
+  color:black;
+}
+.divPagination{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pagination li.active {
+  background-color: black;
+}
+.pagination li.active a{
+  color:white;
+}
+.pagination li:hover:not(.active) {background-color: #ddd;}
